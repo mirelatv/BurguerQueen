@@ -1,21 +1,15 @@
 import React, { Component } from 'react';
-import './Header.css';
-import logo from './logo.png'
-// import  burguer from "./hamburguesa-de-carne.jpg"
-
-
+import './css/Header.css';
 
 class Header extends Component {
-    
-    
   render() {
     return (
-      <div className="App  burguer">
+      <div className="App burguer">
 				<div className="bgColor">
 					<nav className="nav-extended">
 						<div className="nav-wrapper">
 							<a href="#" className="brand-logo">
-							<img src={logo}alt=""/>
+								<img className="img-logo" src="https://preview.ibb.co/d686Xx/logo.png" alt=""/>
 							</a>
 							<a href="#" data-activates="mobile-demo" className="button-collapse"><i className="material-icons">menu</i></a>
 							<ul id="nav-mobile" className="right hide-on-med-and-down">
